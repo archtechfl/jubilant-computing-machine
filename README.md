@@ -4,9 +4,11 @@ A simple widget to convert currency between USD, CAD, and EUR
 
 ### Instructions
 
-1. Make sure you have python installed (this demo uses a simple HTTP server)
+1. Make sure you have Python installed (this demo uses the SimpleHTTPServer)
 
 https://www.python.org
+
+As an alternative, any simple HTTP server that can serve up the contents of the respository will work
 
 2. Download the repository
 
