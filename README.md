@@ -16,6 +16,6 @@ https://www.python.org
 
 `python -m SimpleHTTPServer 8000`
 
-5. Go to localhost:8000 in your web browser
+5. Go to (http://locahost:8000) in your web browser
 
 6. Enjoy!
