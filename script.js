@@ -28,11 +28,11 @@ CurrencyConverter.prototype.start = function() {
 
 CurrencyConverter.prototype.listenForValueChange = function() {
 	var self = this;
-	var convertedCurrencyCode = document.getElementById(self.converted_currency_selector).value;
-	var originalCurrencyCode = document.getElementById(self.original_currency_selector).value;
 	document.getElementById(this.original_currency_input).oninput = function(event) {
 		var value = event.currentTarget.value;
 		var validation = self.validateValue(value);
+		var convertedCurrencyCode = document.getElementById(self.converted_currency_selector).value;
+		var originalCurrencyCode = document.getElementById(self.original_currency_selector).value;
 		if (validation !== false) {
 			if (originalCurrencyCode !== convertedCurrencyCode){
 				self.getConvertedRate(Number(validation));
